@@ -1,0 +1,82 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+h1{
+    font-size: 5rem;
+    color: white;
+    font-family: cursive;
+    text-shadow: 3px 0 #da0463;
+    
+  }
+
+body{
+    text-align: center;
+    background-image: url(wp.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+  .d {
+    background-image: url("drum.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .f {
+    background-image: url("flute.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .g {
+    background-image: url("guitar.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .p {
+    background-image: url("piano.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .t {
+    background-image: url("tabla.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .v {
+    background-image: url("violin.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .set {
+    margin: 10% auto;
+    
+  }
+  
+  .pressed {
+    box-shadow: 0 3px 4px 0 #dbedf3;
+    opacity: 0.5;
+  }
+    
+  .drum {
+    outline: none;
+    border: 10px solid black;
+    font-size: 5rem;
+    font-family: "Arvo", cursive;
+    line-height: 2;
+    font-weight: 900;
+    color:black;
+    text-shadow: 3px 0 #dbedf3;
+    border-radius: 15px;
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    margin: 10px;
+    /* background-color: rgb(107, 158, 19); */
+  }  
+  
